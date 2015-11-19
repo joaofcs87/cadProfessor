@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Professor</string>
+
+    <!-- strings do app -->
+    <string name="nome_professor">Professor:</string>
+    <string name="disciplina_professor">Disciplina:</string>
+    <string name="btn_cadastrar">Cadastrar</string>
+    <string name="btn_listar">Professores Cadastrados</string>
+    <string name="cad_ok">Cadastro Realizado!</string>
+    <string name="cad_erro">Erro na tentativa!</string>
+
+
+</resources>
