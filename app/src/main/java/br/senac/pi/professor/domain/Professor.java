@@ -1,8 +1,5 @@
 package br.senac.pi.professor.domain;
 
-/**
- * Created by Aluno on 19/11/2015.
- */
 public class Professor {
     private int id;
     private String nome;

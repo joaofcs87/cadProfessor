@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Professor</string>
+
+    <!-- strings do app -->
+    <string name="nome_professor">Teacher:</string>
+    <string name="disciplina_professor">Matter:</string>
+    <string name="btn_cadastrar">Register</string>
+    <string name="btn_listar">Registrants Teachers</string>
+    <string name="cad_ok">Held register!</string>
+    <string name="cad_erro">Error trying!</string>
+    <string name="listagem_professor">Teachers registered list</string>
+    <string name="lista_professores">Teacher lists</string>
+
+
+</resources>

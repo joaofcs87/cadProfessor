@@ -7,9 +7,10 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context="br.senac.pi.professor.EditProfessorActivity">
 
+    <TextView
+        style="@style/TxtViewStyle" />
 
     <TextView
         style="@style/TxtViewStyle"

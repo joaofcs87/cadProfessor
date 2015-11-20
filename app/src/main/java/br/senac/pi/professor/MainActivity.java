@@ -1,6 +1,7 @@
 package br.senac.pi.professor;
 
 import android.content.ContentValues;
+import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -23,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         professorDB = new ProfessorDB(this);
 
         findViewById(R.id.btnCadastrarProfessor).setOnClickListener(cadastrarProfessor());
+        findViewById(R.id.btnListarProfessor).setOnClickListener(listarProfessor());
     }
 
     private View.OnClickListener cadastrarProfessor() {
@@ -54,4 +56,15 @@ public class MainActivity extends AppCompatActivity {
             }
         };
     }
+
+    private View.OnClickListener listarProfessor(){
+        return new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this,ListaProfessorActivity.class);
+                startActivity(intent);
+            }
+        };
+    }
+
 }

@@ -1,18 +1,13 @@
 package br.senac.pi.professor.domain;
 
-import android.content.ContentValues;
+
 import android.content.Context;
-import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-import java.util.ArrayList;
-import java.util.List;
 
-/**
- * Created by Aluno on 19/11/2015.
- */
+
 public class ProfessorDB extends SQLiteOpenHelper {
     private static final String TAG = "sql";
     private static final String NOME_BANCO = "professor.sqlite";

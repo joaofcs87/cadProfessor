@@ -3,11 +3,13 @@
 
     <!-- strings do app -->
     <string name="nome_professor">Professor:</string>
-    <string name="disciplina_professor">Disciplina:</string>
+    <string name="disciplina_professor">Matéria:</string>
     <string name="btn_cadastrar">Cadastrar</string>
     <string name="btn_listar">Professores Cadastrados</string>
     <string name="cad_ok">Cadastro Realizado!</string>
     <string name="cad_erro">Erro na tentativa!</string>
+    <string name="listagem_professor">Lista de Professores cadastrados</string>
+    <string name="lista_professores">Listar Professores</string>
 
 
 </resources>
