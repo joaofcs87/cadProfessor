@@ -10,6 +10,14 @@
     <string name="cad_erro">Error trying!</string>
     <string name="listagem_professor">Teachers registered list</string>
     <string name="lista_professores">Teacher lists</string>
+    <string name="zero_professores">No registered teachers</string>
+    <string name="id_professor">ID:</string>
+    <string name="editar_professor">Edit</string>
+    <string name="edit_ok">Changes made</string>
+    <string name="delete_ok">Deleted record</string>
+    <string name="opcoes">Options</string>
+    <string name="msg_opcoes">What do you want to do?</string>
+    <string name="excluir_professor">Delete</string>
 
 
 </resources>

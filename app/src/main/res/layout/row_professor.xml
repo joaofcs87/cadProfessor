@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/row"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableLayout style="@style/ListViewStyle">
+
+        <TableRow style="@style/ListViewStyle">
+
+            <TextView android:text="@string/id_professor" />
+
+            <TextView
+
+                android:id="@+id/txtIdProfessor" />
+        </TableRow>
+
+
+        <TableRow style="@style/ListViewStyle">
+
+            <TextView
+
+                android:text="@string/nome_professor" />
+
+            <TextView android:id="@+id/txtNomeProfessor" />
+        </TableRow>
+
+        <TableRow style="@style/ListViewStyle">
+
+            <TextView
+
+                android:text="@string/disciplina_professor" />
+
+            <TextView android:id="@+id/txtDisciplina" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
+

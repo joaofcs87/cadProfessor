@@ -10,6 +10,14 @@
     <string name="cad_erro">Erro na tentativa!</string>
     <string name="listagem_professor">Lista de Professores cadastrados</string>
     <string name="lista_professores">Listar Professores</string>
+    <string name="zero_professores">Sem professores cadastrados</string>
+    <string name="id_professor">ID:</string>
+    <string name="editar_professor">Editar</string>
+    <string name="edit_ok">Alteração realizada</string>
+    <string name="delete_ok">Registro excluído</string>
+    <string name="opcoes">Opções</string>
+    <string name="msg_opcoes">O que deseja fazer?</string>
+    <string name="excluir_professor">Excluir</string>
 
 
 </resources>

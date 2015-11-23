@@ -7,10 +7,16 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
     tools:context="br.senac.pi.professor.EditProfessorActivity">
 
     <TextView
-        style="@style/TxtViewStyle" />
+        style="@style/TxtViewStyle"
+        android:text="@string/id_professor"/>
+
+    <TextView
+        style="@style/TxtViewStyle"
+        android:id="@+id/txtIdProfessor"/>
 
     <TextView
         style="@style/TxtViewStyle"
@@ -18,8 +24,10 @@
 
     <EditText
         style="@style/EdtStyle"
-        android:id="@+id/edtNomeProfessor"
-        android:inputType="text"/>
+        android:inputType="text"
+        android:id="@+id/edtNomeProfessor">
+        <requestFocus />
+    </EditText>
 
     <TextView
         style="@style/TxtViewStyle"
@@ -32,12 +40,7 @@
 
     <Button
         style="@style/BtnStyle"
-        android:id="@+id/btnCadastrarProfessor"
-        android:text="@string/btn_cadastrar"/>
-
-    <Button
-        style="@style/BtnStyle"
-        android:id="@+id/btnListarProfessor"
-        android:text="@string/btn_listar"/>
+        android:id="@+id/btnEditarProfessor"
+        android:text="@string/editar_professor"/>
 
 </LinearLayout>
